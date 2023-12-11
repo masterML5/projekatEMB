@@ -1,0 +1,1101 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "tablesScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imageBackground",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_800x480_spotlights.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "tableOneButton",
+            "X": 236,
+            "Y": 105,
+            "Width": 128,
+            "Height": 128,
+            "Pressed": "dining-table_clicked.png",
+            "Released": "dining-table.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "tableThirdButton",
+            "X": 236,
+            "Y": 305,
+            "Width": 128,
+            "Height": 128,
+            "Pressed": "dining-table_clicked.png",
+            "Released": "dining-table.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "tableSecondButton",
+            "X": 436,
+            "Y": 105,
+            "Width": 128,
+            "Height": 128,
+            "Pressed": "dining-table_clicked.png",
+            "Released": "dining-table.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "tableFourthButton",
+            "X": 436,
+            "Y": 305,
+            "Width": 128,
+            "Height": 128,
+            "Pressed": "dining-table_clicked.png",
+            "Released": "dining-table.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 265,
+            "Y": 81,
+            "Width": 71,
+            "Height": 24,
+            "TextId": "__SingleUse_E03D",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 465,
+            "Y": 81,
+            "Width": 71,
+            "Height": 24,
+            "TextId": "__SingleUse_08Z1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1",
+            "X": 265,
+            "Y": 285,
+            "Width": 71,
+            "Height": 24,
+            "TextId": "__SingleUse_P820",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1_1",
+            "X": 465,
+            "Y": 285,
+            "Width": 71,
+            "Height": 24,
+            "TextId": "__SingleUse_7WLB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 270,
+            "Y": 6,
+            "Width": 260,
+            "Height": 49,
+            "TextId": "__SingleUse_JF2Y",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 148,
+              "Blue": 148
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "tableOneAmount",
+            "X": 240,
+            "Y": 233,
+            "Width": 141,
+            "Height": 24,
+            "TextId": "__SingleUse_HM6C",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_UQSO",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "tableSecondAmount",
+            "X": 440,
+            "Y": 233,
+            "Width": 141,
+            "Height": 24,
+            "TextId": "__SingleUse_HRNA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_KU72",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "tableFourthAmount",
+            "X": 440,
+            "Y": 433,
+            "Width": 141,
+            "Height": 24,
+            "TextId": "__SingleUse_1UVG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_L9PZ",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "tableThirdAmount",
+            "X": 240,
+            "Y": 433,
+            "Width": 141,
+            "Height": 24,
+            "TextId": "__SingleUse_3XFD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_OG0O",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 150,
+            "Y": 270,
+            "Width": 500,
+            "Height": 2,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 2.0,
+            "StartY": 2.0,
+            "LineWidth": 1800.0,
+            "LineEndingStyle": "Round"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "changeScreenTableOne",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tableOneButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "changeScreenTableSecond",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tableSecondButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "changeScreenTableThird",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tableThirdButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "changeScreenTableFourth",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tableFourthButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "menuScreen"
+            }
+          },
+          {
+            "InteractionName": "setSelectedTableOne",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tableOneButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "setSelectedTableOne"
+            }
+          },
+          {
+            "InteractionName": "setSelectedTableSecond",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tableSecondButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "setSelectedTableSecond"
+            }
+          },
+          {
+            "InteractionName": "setSelectedTableThird",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tableThirdButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "setSelectedTableThird"
+            }
+          },
+          {
+            "InteractionName": "setSelectedTableFourth",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tableFourthButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "setSelectedTableFourth"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "menuScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imageBackground",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_800x480_spotlights.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "drinksButton",
+            "X": 19,
+            "Y": 15,
+            "Width": 110,
+            "Height": 41,
+            "Pressed": "drinks_clicked.png",
+            "Released": "drinks.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "foodButton",
+            "X": 159,
+            "Y": 15,
+            "Width": 94,
+            "Height": 41,
+            "Pressed": "food_clicked.png",
+            "Released": "food.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "foodContainer",
+            "X": 19,
+            "Y": 66,
+            "Width": 522,
+            "Height": 402,
+            "Visible": false,
+            "Components": [
+              {
+                "Type": "Button",
+                "Name": "fishButton",
+                "Y": 1,
+                "Width": 150,
+                "Height": 94,
+                "Pressed": "kisspng-barbecue-grill-fish-dish-roasting-the-dish-of-grilled-fish-5aa4398c770417.4853203115207120764875.png",
+                "Released": "kisspng-barbecue-grill-fish-dish-roasting-the-dish-of-grilled-fish-5aa4398c770417.4853203115207120764875.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "noodleButton",
+                "Y": 116,
+                "Width": 150,
+                "Height": 142,
+                "Pressed": "kisspng-chow-mein-fried-noodles-lo-mein-yakisoba-chinese-n-delicious-black-pepper-powder-beef-noodle-dishes-5a72262fc45b07.2076864815174303198043.png",
+                "Released": "kisspng-chow-mein-fried-noodles-lo-mein-yakisoba-chinese-n-delicious-black-pepper-powder-beef-noodle-dishes-5a72262fc45b07.2076864815174303198043.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "baconButton",
+                "X": 1,
+                "Y": 275,
+                "Width": 150,
+                "Height": 107,
+                "Pressed": "kisspng-bacon-roll-tocino-thai-cuisine-black-pepper-black-pepper-bacon-roll-5a72266feffa63.943799661517430383983.png",
+                "Released": "kisspng-bacon-roll-tocino-thai-cuisine-black-pepper-black-pepper-bacon-roll-5a72266feffa63.943799661517430383983.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "steakButton",
+                "X": 170,
+                "Y": 275,
+                "Width": 150,
+                "Height": 107,
+                "Pressed": "kisspng-pepper-steak-hamburger-european-cuisine-beefsteak-western-black-pepper-steak-5a722613c0fd59.0880117315174302917905.png",
+                "Released": "kisspng-pepper-steak-hamburger-european-cuisine-beefsteak-western-black-pepper-steak-5a722613c0fd59.0880117315174302917905.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "porkButton",
+                "X": 339,
+                "Width": 150,
+                "Height": 114,
+                "Pressed": "kisspng-twice-cooked-pork-moo-shu-pork-karedok-frog-dish-flavor-burn-frog-5a93c71f1f87f4.5955911015196342071292.png",
+                "Released": "kisspng-twice-cooked-pork-moo-shu-pork-karedok-frog-dish-flavor-burn-frog-5a93c71f1f87f4.5955911015196342071292.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "tunaButton",
+                "X": 170,
+                "Y": 1,
+                "Width": 150,
+                "Height": 113,
+                "Pressed": "kisspng-sashimi-sushi-tataki-thunnus-seafood-black-pepper-tuna-fish-and-fish-5a722657c8da53.4382241615174303598227.png",
+                "Released": "kisspng-sashimi-sushi-tataki-thunnus-seafood-black-pepper-tuna-fish-and-fish-5a722657c8da53.4382241615174303598227.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "beefNasiButton",
+                "X": 339,
+                "Y": 133,
+                "Width": 150,
+                "Height": 125,
+                "Pressed": "kisspng-mongolian-beef-nasi-campur-cooked-rice-thai-cuisin-black-pepper-beef-rice-5a7c9e8ca44218.9664482915181164926728.png",
+                "Released": "kisspng-mongolian-beef-nasi-campur-cooked-rice-thai-cuisin-black-pepper-beef-rice-5a7c9e8ca44218.9664482915181164926728.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "teppanyakiButton",
+                "X": 170,
+                "Y": 120,
+                "Width": 150,
+                "Height": 150,
+                "Pressed": "kisspng-fast-food-teppanyaki-fried-rice-asian-cuisine-rice-with-beef-and-black-pepper-5a7c9ed0983039.0090612515181165606234.png",
+                "Released": "kisspng-fast-food-teppanyaki-fried-rice-asian-cuisine-rice-with-beef-and-black-pepper-5a7c9ed0983039.0090612515181165606234.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "yangzhouButton",
+                "X": 339,
+                "Y": 275,
+                "Width": 150,
+                "Height": 107,
+                "Pressed": "kisspng-yangzhou-fried-rice-teppanyaki-pilaf-char-siu-french-foie-gras-iron-pork-fried-rice-5aa28c4b680c50.8643119715206021874262.png",
+                "Released": "kisspng-yangzhou-fried-rice-teppanyaki-pilaf-char-siu-french-foie-gras-iron-pork-fried-rice-5aa28c4b680c50.8643119715206021874262.png"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "drinksContainer",
+            "X": 19,
+            "Y": 73,
+            "Width": 534,
+            "Height": 392,
+            "Visible": false,
+            "Components": [
+              {
+                "Type": "Button",
+                "Name": "waterButton",
+                "X": 12,
+                "Y": 9,
+                "Width": 135,
+                "Height": 150,
+                "Pressed": "aquafina.png",
+                "Released": "aquafina.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "colaButton",
+                "X": 214,
+                "Y": 9,
+                "Width": 41,
+                "Height": 150,
+                "Pressed": "coca-cola.png",
+                "Released": "coca-cola.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "fantaButton",
+                "X": 210,
+                "Y": 210,
+                "Width": 49,
+                "Height": 150,
+                "Pressed": "fanta.png",
+                "Released": "fanta.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "spriteButton",
+                "X": 54,
+                "Y": 210,
+                "Width": 51,
+                "Height": 150,
+                "Pressed": "sprite.png",
+                "Released": "sprite.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "oranginaButton",
+                "X": 381,
+                "Y": 3,
+                "Width": 72,
+                "Height": 150,
+                "Pressed": "orangina.png",
+                "Released": "orangina.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "schweppesButton",
+                "X": 393,
+                "Y": 210,
+                "Width": 48,
+                "Height": 150,
+                "Pressed": "schweppes.png",
+                "Released": "schweppes.png"
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 430,
+            "Y": 23,
+            "Width": 60,
+            "Height": 24,
+            "TextId": "__SingleUse_THFO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "selectedTableLabel",
+            "X": 494,
+            "Y": 23,
+            "Width": 13,
+            "Height": 24,
+            "TextId": "__SingleUse_R9F6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_SNC0",
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "tablesButton",
+            "X": 271,
+            "Y": 16,
+            "Width": 148,
+            "Height": 39,
+            "Pressed": "tables_clicked.png",
+            "Released": "tables.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "finishOrderButton",
+            "X": 553,
+            "Y": 429,
+            "Width": 203,
+            "Height": 39,
+            "Pressed": "finish_order_clicked.png",
+            "Released": "finish_order.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "X": 550,
+            "Width": 250,
+            "Height": 423,
+            "Components": [
+              {
+                "Type": "ScrollableContainer",
+                "Name": "scrollableContainer1",
+                "Width": 250,
+                "Height": 392,
+                "HorizontalScrollEnabled": true,
+                "VerticalScrollEnabled": true,
+                "ScrollbarsVisibleOnPressed": true,
+                "ScrollbarsAlpha": 255,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "box1",
+                    "Width": 250,
+                    "Height": 381,
+                    "Color": {
+                      "Red": 235,
+                      "Green": 230,
+                      "Blue": 230
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "itemsTA",
+                    "Width": 250,
+                    "Height": 381,
+                    "TextId": "__SingleUse_AO4S",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_DUHS",
+                      "UseBuffer": true,
+                      "BufferSize": 500
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "TextArea",
+                "Name": "totalPriceLabel",
+                "X": 3,
+                "Y": 392,
+                "Width": 189,
+                "Height": 27,
+                "TextId": "__SingleUse_19Q2",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "__SingleUse_3FVV",
+                  "UseBuffer": true,
+                  "BufferSize": 30
+                }
+              },
+              {
+                "Type": "Button",
+                "Name": "clearButton",
+                "X": 206,
+                "Y": 392,
+                "Width": 32,
+                "Height": 27,
+                "Pressed": "clear.png",
+                "Released": "clear.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "drinksShow",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "drinksButton"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "drinksContainer"
+            }
+          },
+          {
+            "InteractionName": "foodShow",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "foodButton"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "foodContainer"
+            }
+          },
+          {
+            "InteractionName": "foodHide",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "drinksButton"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "foodContainer"
+            }
+          },
+          {
+            "InteractionName": "drinksHide",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "foodButton"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "drinksContainer"
+            }
+          },
+          {
+            "InteractionName": "tablesShow",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tablesButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "tablesScreen"
+            }
+          },
+          {
+            "InteractionName": "finishOrderScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "finishOrderButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "tablesScreen"
+            }
+          },
+          {
+            "InteractionName": "fishAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fishButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fishAdd"
+            }
+          },
+          {
+            "InteractionName": "noodleAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "noodleButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "noodleAdd"
+            }
+          },
+          {
+            "InteractionName": "baconAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "baconButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "baconAdd"
+            }
+          },
+          {
+            "InteractionName": "steakAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "steakButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "steakAdd"
+            }
+          },
+          {
+            "InteractionName": "porkAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "porkButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "porkAdd"
+            }
+          },
+          {
+            "InteractionName": "tunaAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tunaButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "tunaAdd"
+            }
+          },
+          {
+            "InteractionName": "beefNasiAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "beefNasiButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "beefNasiAdd"
+            }
+          },
+          {
+            "InteractionName": "teppanyakiAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "teppanyakiButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "teppanyakiAdd"
+            }
+          },
+          {
+            "InteractionName": "yangzhouAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "yangzhouButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "yangzhouAdd"
+            }
+          },
+          {
+            "InteractionName": "waterAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "waterButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "waterAdd"
+            }
+          },
+          {
+            "InteractionName": "colaAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "colaButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "colaAdd"
+            }
+          },
+          {
+            "InteractionName": "fantaAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "fantaButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "fantaAdd"
+            }
+          },
+          {
+            "InteractionName": "spriteAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "spriteButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "spriteAdd"
+            }
+          },
+          {
+            "InteractionName": "oranginaAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "oranginaButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "oranginaAdd"
+            }
+          },
+          {
+            "InteractionName": "schweppesAdd",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "schweppesButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "schweppesAdd"
+            }
+          },
+          {
+            "InteractionName": "finishOrder",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "finishOrderButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "finishOrder"
+            }
+          },
+          {
+            "InteractionName": "clearOrder",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "clearButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "clearOrder"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "homeScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "imageBackground",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_800x480_spotlights.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 34,
+            "Y": 89,
+            "Width": 662,
+            "Height": 192,
+            "TextId": "__SingleUse_WF42",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "startAppButton",
+            "X": 400,
+            "Y": 346,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_arrow_right_alt_50_50_E8F6FB.svg.png",
+            "IconX": 97,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "infoButton",
+            "X": 43,
+            "Y": 346,
+            "Width": 175,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_small_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_small_round_normal.png",
+            "TextId": "__SingleUse_F8PV",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "startAppAction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "startAppButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "tablesScreen"
+            }
+          },
+          {
+            "InteractionName": "infoAction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "infoButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "infoScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "infoScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_800x480_wavy_lines.png"
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "ProjekatEMB",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "tablesScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "touchgfx",
+    "UIPath": ".",
+    "ApplicationTemplateName": "Simulator",
+    "ApplicationTemplateVersion": "2.0.0",
+    "ApplicationTemplateDescription": "Simulator Application Template",
+    "AvailableColorDepths": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      24
+    ],
+    "AvailableLCDs": {
+      "1": "LCD1bpp",
+      "2": "LCD2bpp",
+      "4": "LCD4bpp",
+      "8": "LCD8bpp_ARGB2222",
+      "16": "LCD16bpp",
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "",
+    "FlashTargetCommand": "",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape"
+  },
+  "Version": "4.22.1",
+  "CreatedBy": "4.22.1"
+}
